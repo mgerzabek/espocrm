@@ -16,7 +16,7 @@ class CreateTask implements AfterSave
         if ($entity->isNew()) {
             $task = $this->entityManager->getNewEntity('Task');
             $task->set([
-                'name' => 'Follow-up: Contact ' . $entity->get('name'),
+                'name' => 'Follow-up: ' . $entity->get('name'),
                 'assignedUserId' => $entity->get('assignedUserId'),
                 'parentType' => 'Lead',
                 'parentId' => $entity->get('id'),
