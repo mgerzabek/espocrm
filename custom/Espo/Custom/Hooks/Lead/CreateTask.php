@@ -25,6 +25,7 @@ class CreateTask implements AfterSave
                 'dateEnd' => (new \DateTime('+7 days'))->format('Y-m-d'),
                 'description' => $entity->get('description'),
             ]);
+            $this->entityManager->saveEntity($task);
         }
     }
 }
