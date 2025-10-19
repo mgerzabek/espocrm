@@ -1,0 +1,20 @@
+{
+  "fields": {
+    "industry": {
+      "type": "enum",
+      "options": [
+        "Software Development",
+        "Software-as-a-Service (SaaS)",
+        "IT and Web Agencies",
+        "IT Consulting",
+        "Enterprise Software",
+        "System Integration",
+        "Process Automation",
+        "Educational Services",
+        "Technical Consulting",
+        "IT Infrastructure Management",
+        "Cloud Services"
+      ]
+    }
+  }
+}

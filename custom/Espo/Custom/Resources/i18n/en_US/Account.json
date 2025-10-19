@@ -1,0 +1,71 @@
+{
+    "fields": {
+        "name": "Name",
+        "emailAddress": "Email",
+        "website": "Website",
+        "phoneNumber": "Phone",
+        "billingAddress": "Billing Address",
+        "shippingAddress": "Shipping Address",
+        "description": "Description",
+        "sicCode": "Sic Code",
+        "industry": "Industry",
+        "type": "Type",
+        "contactRole": "Title",
+        "contactIsInactive": "Inactive",
+        "campaign": "Campaign",
+        "targetLists": "Target Lists",
+        "targetList": "Target List",
+        "originalLead": "Original Lead"
+    },
+    "links": {
+        "contacts": "Contacts",
+        "contactsPrimary": "Contacts (primary)",
+        "opportunities": "Opportunities",
+        "cases": "Cases",
+        "documents": "Documents",
+        "meetingsPrimary": "Meetings (expanded)",
+        "callsPrimary": "Calls (expanded)",
+        "tasksPrimary": "Tasks (expanded)",
+        "emailsPrimary": "Emails (expanded)",
+        "targetLists": "Target Lists",
+        "campaignLogRecords": "Campaign Log",
+        "campaign": "Campaign",
+        "portalUsers": "Portal Users",
+        "originalLead": "Original Lead"
+    },
+    "options": {
+        "type": {
+            "Customer": "Customer",
+            "Investor": "Investor",
+            "Partner": "Partner",
+            "Reseller": "Reseller"
+        },
+        "industry": {
+          "Software Development":  "Software Development",
+          "Software-as-a-Service (SaaS)":  "Software-as-a-Service (SaaS)",
+          "IT and Web Agencies":  "IT and Web Agencies",
+          "IT Consulting":  "IT Consulting",
+          "Enterprise Software":  "Enterprise Software",
+          "System Integration": "System Integration",
+          "Process Automation": "Process Automation",
+          "Educational Services":  "Educational Services",
+          "Technical Consulting": "Technical Consulting",
+          "IT Infrastructure Management": "IT Infrastructure Management‚",
+          "Cloud Services": "Cloud Services"
+        }
+    },
+    "labels": {
+        "Create Account": "Create Account",
+        "Copy Billing": "Copy Billing",
+        "Set Primary": "Set Primary"
+    },
+    "presetFilters": {
+        "customers": "Customers",
+        "partners": "Partners",
+        "recentlyCreated": "Recently Created"
+    },
+    "tabs": {
+        "Account": "Account",
+        "Support": "Support"
+    }
+}
