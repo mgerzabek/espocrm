@@ -21,8 +21,8 @@ class CreateTask implements AfterSave
                 'parentType' => 'Lead',
                 'parentId' => $entity->get('id'),
                 'status' => 'Not Started',
-                'dateStart' => (new \DateTime())->format('Y-m-d'),
-                'dateEnd' => (new \DateTime('+7 days'))->format('Y-m-d'),
+                'dateStart' => (new \DateTime())->format('Y-m-d H:i:s'),
+                'dateEnd' => (new \DateTime('+7 days'))->format('Y-m-d H:i:s'),
                 'description' => $entity->get('description'),
             ]);
             $this->entityManager->saveEntity($task);
